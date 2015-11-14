@@ -1,0 +1,127 @@
+/******header******/
+.newMenu {
+	display: none;
+}
+.newMenu_0,
+.newMenu_1,
+.newMenu_2,
+.newMenu_3,
+.newMenu_4 {
+	width: 100%;
+	background-color: #eee;
+	position: absolute;
+	top: 40px;
+	left: auto;
+	z-index: 15;
+	border: 1px solid #CCC;
+	border-top: none;
+	cursor: pointer;
+	overflow: hidden;
+	margin-top: 22px;
+	filter: alpha(opacity: 0);
+	opacity: 0;
+}
+.newMenu_1 {
+	z-index: 12;
+}
+.newMenu ul li a {
+	display: block;
+	width: 92px;
+	font-size: 110%;
+	text-align: left;
+	height: 50px;
+	line-height: 50px;
+}
+.newMenu ul li a span {
+	display: inline-block;
+	position: absolute;
+	top: 11px;
+	right: 0;
+	width: 24px;
+	height: 28px;
+	border-radius: 50%;
+	/* background:url("../images/jiantou.jpg") no-repeat scroll -76px -6px; */
+}
+.newMenu li.two span {
+	top: 61px;
+}
+.newMenu li.three span {
+	top: 111px;
+}
+.newMenu li.four span {
+	top: 161px;
+}
+.newMenu li.five span {
+	top: 211px;
+}
+.newMenu li.six span {
+	top: 261px;
+}
+.newMenu ul a:hover {
+	background-color: #00c9ff;
+	color: #FFF;
+}
+/* .newMenu ul a span:hover {
+	background:url("../images/jiantou.jpg") no-repeat scroll -42px -6px;
+} */
+
+
+
+.header_layout {
+	width: 100%;
+	height: 65px;
+}
+.header {
+	width: 100%;
+	background: #FFF;
+	position: fixed;
+	top:0;
+	z-index: 99999;
+}
+.header_content {
+	width: 1349px;
+	margin: 0 auto;
+	color: #000;
+	overflow: hidden;
+	border-bottom: 1px solid #E8E8E8;
+}
+.logo,.nav {
+	float: left;
+	margin-left: 100px;
+}
+.logo {
+	width: 275px;
+	height: 30px;
+	margin: 16px 20px 16px 84px;
+}
+.nav {
+
+}
+.nav ul {
+	
+}
+.nav ul li {
+	font-size: 120%;
+	padding: 10px 12px 20px 12px;
+	margin-top: 10px;
+}
+.tel {
+
+}
+.tel span {
+	font-size: 120%;
+	font-weight: 900;
+	display: inline-block;
+	margin: 20px 0 0 10px;
+}
+span.header_tel {
+	text-indent: 30px;
+	padding-right: 10px;
+	border-right: 1px solid black;
+	background: #FFF url("../images/header_tel.png") no-repeat scroll  left 3px;
+}
+span.join_us {
+
+}
+
+/******End header******/

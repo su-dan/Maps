@@ -1,0 +1,407 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 1920px;
+	font-family: 宋体;
+	font-size: 12px;
+	background: url(images/banner_diviver.png) 0 160px no-repeat;
+}
+#container {
+	margin-top: 35px;
+	position: relative;
+	margin: 0 auto;
+	width: 980px;
+	overflow: hidden;
+	background: #f7f7f7;
+}
+#logo {
+	height: 164px;
+	width: 980px;
+	margin: 0 auto;
+	/*background: url(images/banner_diviver.png) no-repeat bottom;*/
+}
+#left {
+	float: left;
+	width: 180px;
+}
+#right {
+	float: right;
+	width: 800px;
+}
+#banner {
+	height: 352px;
+	width: 800px;
+	overflow: hidden;
+}
+.conducts {
+	width: 800px;
+	border-bottom: 4px solid green;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+#communicate {
+	width: 800px;
+	overflow: hidden;
+}
+
+#footer {
+	height: 211px;
+	width: 1920px;
+	text-align: center;
+	background: gray;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+.clear {
+	clear: both;
+}
+/***************logo***********************/
+.top {
+	height: 32px;
+	border-bottom: 1px solid #ebebeb;
+}
+#logo a {
+	line-height: 35px;
+	padding: 0 8px;
+}
+#logo img {
+	vertical-align: middle;
+}
+.top .welcom {
+	float: right;
+}
+.search {	
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+.search input {	
+	border: 1px solid #ebebeb;	
+}
+form [type="text"] {
+	height: 25px;
+	width: 252px;		
+}
+form [type="submit"] {
+	height: 29px;
+	width: 46px;
+	background: #ffb545;
+	color: white;
+	border: 1px;
+	margin-left:-6px;
+}
+#nav {
+	height: 36px;
+	width: 980px;
+	background: url(images/nav_bg.png);
+}
+#nav li {
+	color: #65b25c;
+	list-style: none;
+	float: left;
+}
+.first {
+	border-right: 1px white solid;
+}
+#nav a {
+    font-family: "微软雅黑";	
+	line-height: 35px;
+	color: white;
+	font-size: 16px;
+	font-weight: bolder;
+	padding: 6px 42px;
+}
+#nav a:hover {
+	margin-top: 0;
+	padding-bottom: 15px;
+	background: url(images/nav_hover.png);
+}
+/**********banner**********************/
+.odd {
+	width: 160px;
+	background: #ebebeb;
+	padding: 10px;
+	overflow: hidden;
+}
+.oven {
+	width: 160px;
+	padding: 10px;
+	overflow: hidden;
+}
+#left img {
+	float: left;
+}
+#left span {
+	margin-left: 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#left ul {
+	clear: left;
+}
+#left li {
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+/******************conducts*************************/
+.conducts_top {
+	margin-top: 5px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.conducts_top a img {
+	border: 0;
+}
+.conducts_top .serve {
+	float: left;
+	margin-right: 1px;
+	height: 106px;
+	width: 80px;
+	background: #777777;
+}
+.conducts_top .serve:hover img {
+	border-bottom: 5px solid #ff8f21;
+}
+.conducts_top .box {
+	float: left;
+	width: 184px;
+	height: 105px;
+	margin-left: 1px;	
+	overflow: hidden;
+}
+.announce {
+	background: #ff7200;
+}
+.announce p,h4 {
+	margin: 9px;
+	color: white;
+	line-height: 20px;
+}
+.wait {
+	background: #f1f1f1;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	text-align: center;
+}
+.wait h1 {
+	color: #454545;
+	margin-top: 22px;	
+}
+#text {
+	margin-top: 32px; 
+}
+.wait span {
+	font-weight: bold;
+	font-size: 28px;
+	color: #ff7200;
+	margin-left: 28px;
+	letter-spacing: 2px;
+}
+/****************轮播*********************/
+.hot {
+	float:left;
+	margin-bottom: 5px;
+}
+#lunbo {
+	position: relative;
+	float: left;
+	width: 241px;
+	height: 375px;
+	border: 1px solid #ebebeb;
+	overflow: hidden;
+	z-index: 1;
+}
+#lunbo img {
+	width: 241px;
+	height: 339px;
+}
+#lunbo ul {
+	position: absolute;
+	height: 339px;
+	list-style: none;
+}
+#lunbo ul li {	
+	float: left;
+}
+#buttons {
+	position: absolute;
+	top: 339px;
+	left: 90px;
+	width: 100px; 
+	z-index: 2;
+}
+#buttons span {
+	float: left;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.on {
+	background-color: #ff4200;
+}
+.on_b {
+	background-color: black;
+}
+/******************商品*************************/
+.conducts_right {
+	width: 555px;
+	float: right;
+}
+.pic_box {
+	float: left;
+	padding: 1px;
+	border: 1px solid #ebebeb;
+	margin-right: 1px;
+	margin-top:2px;
+}
+.conducts_right .pic_box:hover  {
+	border: 1px solid #ff3c00;
+}
+.conducts_right .pic_box img {
+	height: 157px;
+	width: 178px;
+}
+.conducts_right .last img {
+	width: 362px;
+	height: 157px;
+}
+/***************交流社区**********************/
+.introduce {
+	float: left;
+	margin-top: 16px;
+	width: 557px;
+	background: url(images/title_knowledge.png) 10px top  no-repeat;
+}
+.more {
+	color: green;
+	margin-top: 20px;
+	margin-bottom: 18px;
+	margin-left: 493px;
+	display: block;
+	font-family: "微软雅黑";
+	font-size:14px;
+}
+.introduce .wraper {
+	float: left;	
+	width: 205px;
+}
+.introduce .pic_box {
+	margin-bottom: 10px;
+	margin-left: 8px;
+}
+.introduce ul {
+	float: right;
+	margin-left: 10px;
+	width: 318px;
+	list-style-position: inside;
+}
+.introduce ul span {
+	float: right;
+}
+.introduce li {
+	margin-bottom: 10px;
+	width: 290px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 14px;
+}
+.introduce ul a:hover {
+	color: #ff4200;
+	text-decoration: underline;
+}
+.plant {
+	float: left;
+	margin-left: 10px;
+	border: 1px solid #ebebeb;
+	padding: 2px;
+}
+.vip {
+	width: 240px;
+	margin-top: 6px;
+	margin-left: 3px;
+	float: right;
+}
+.vip h3 {
+	margin-top: 35px;
+	padding-left: 15px;
+}
+.vip .more {
+	margin-left: 113px;
+	display: inline;
+	margin-top: 0;
+	color: #545454;
+	font-weight: normal;
+} 
+.vip .people{
+	width: 232px;
+	border: 1px solid #ebebeb;
+	overflow: hidden;
+}
+.vip .people img {
+	margin-top: 8px;
+	margin-left: 8px;
+}
+.vip table {
+	margin-bottom: 10px;
+	text-align: center;	
+}
+/*******************museum***********************/
+.museum {
+	border: 0;
+}
+.museum_box {
+	float: left;
+	border: 1px solid #ebebeb;
+	width: 187px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.seven {
+	float: none;
+	width: 205px
+}
+.museum_box p {
+	line-height: 20px;
+}
+.get {
+	background: url(images/get.png);
+	border: 0;
+	width: 73px;
+	height: 34px;
+	margin-top: 17px;
+}
+.over {
+	background: url(images/over.png);
+	border: 0;
+	width: 73px;
+	height: 34px;
+	margin-top: 17px;
+}
+.museum .conducts_right {
+	width: 582px;
+}
+/****************footer********************/
+#footer {
+	color: white;
+	padding-top: 50px;
+}
+
+#footer a {
+	color: white;
+	font-size: 12px;
+	padding: 10px;
+}
+#footer p {
+	line-height: 25px;
+}
